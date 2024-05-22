@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:learn_map_g10/pages/custom_flutter_map.dart';
 import 'package:learn_map_g10/pages/custom_yandex_map.dart';
 
 void main() {
@@ -13,7 +12,7 @@ class App extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: CustomYandexMap(),
+      home: Home(),
     );
   }
 }
